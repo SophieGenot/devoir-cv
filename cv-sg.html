@@ -7,10 +7,59 @@
      <title>CV Sophie Genot</title>
 </head>
 <body>
-    <main>
-        
+<div id="container">  <!-- conteneur cv -->
+<main>
+ <section id="entete"> <!-- élément entête -->
+
+  <div id="photo">
+    <a href="./assets-test/img/photo-profil.JPG" target="_blank" rel="noopener noreferrer">
+    <picture> <!-- PHOTO PROFIL -->
+    <source srcset="./assets-test/img-test/photo-profil.avif" type="image/avif">
+    <source srcset="./assets-test/img-test/photo-profil.jpg" type="image/jpg">
+    <img src="./assets-test/img-test/photo-profil.JPG" alt="photo de profil">
+    </picture> 
+    </a>
+  </div>
+     
+   <div id="infos-profil">  <!-- flex infos profil -->
+   <h1>Sophie Génot</h1>
+
+    <h2>Développeur Web et Web Mobile</h2>
+    
+    <address>
+     <div id="flex-icons"> <!-- ICONS -->
+
+      <div class="icon-box"> <!-- icon mail -->
+      <img src="./assets/img/envelope.svg" class="icon hover" alt="boîte email">
+      <a href="mailto:sophie.g@hotmail.fr" class="icon">Mail</a>
+      </div>
+
+      <div class="icon-box"> <!-- icon numéro -->
+      <img src="./assets-test/img-test/phone-call.svg" class="icon hover" alt="numéro de téléphone">
+      <a href="tel:0707070707" class="icon">Téléphone</a>
+      </div>
+
+      <div class="icon-box"> <!-- icon maison -->
+      <img src="./assets-test/img-test/adress.svg" class="icon hover" alt="adresse postale">
+      <a href="https://www.google.com/maps/place/2711+Hamakurosaki,+Toyama,+931-8414,+Japon/@36.7569098,137.2862905,17z/data=!4m15!1m8!3m7!1s0x34674e0fd77f192f:0xf54275d47c665244!2sJapon!3b1!8m2!3d36.204824!4d138.252924!16zL20vMDNfM2Q!3m5!1s0x5ff798728d0fe343:0x16a2fce07f7a4329!8m2!3d36.7567861!4d137.2863288!16s%2Fg%2F11g8r9hj9k?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="icon">Adresse</a>
+      </div>
+            
+      <div class="icon-box" id="car"> <!-- icon voiture -->
+      <img src="./assets-test/img-test/car.svg" class="icon hover" alt="permis de conduire">
+      <span class="icon">Permis B</span>
+      </div>
+      </div> <!-- fin flex-icons -->
+    </address>
+     
+   </div>  <!-- fin flex infos profil -->
+ </section>  <!-- fin élément entête-->
+
+
+
+
     </main>
+
     <footer>
-        
+
     </footer>
 </body>
