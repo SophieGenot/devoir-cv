@@ -1,0 +1,164 @@
+#entete{
+    height: auto;
+    display: flex;
+    align-content: space-between; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+#entete, footer{
+    background-color: #17abb3;
+    width: 600px;
+    margin: auto;
+}
+
+#photo{
+    align-self: center;
+}
+
+#photo:hover{
+    transform: scale(1.15);
+}
+
+picture{
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px, solid, #ffffff;
+}
+
+.icon{
+    width: 10px;
+    height: 10px;
+}
+
+#car{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+#flex-icons{
+    width: 180px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#flexbox{
+    width: 600px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+#left-column{
+    width: 30%;
+    background-color: #f5f5f5;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: auto;
+}
+
+#right-column{
+    width: 70%; 
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+
+.aligne div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.survol:hover .align{
+    background-color: #e3e3e3;
+}
+
+.hover:hover{
+    opacity: 30%;
+}
+
+.block-stars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+.stars{
+    width: 20px;
+    height: 20px;
+}
+
+ul, li{
+    padding-left: 0;
+}
+
+.sans-puce{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sans-puce li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square li{
+    list-style-type: none;
+}
+
+.square li::before{
+    content:'\25AA';
+    margin-right: 5px;
+    color: #17abb3;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+hr{
+    background-color: rgb(23, 171, 179)
+}
+
+#footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+#container{
+    background-color:rgb(227, 227, 227) ;
+    width: 1160px;
+    margin: auto;
+}
